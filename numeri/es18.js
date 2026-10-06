@@ -13,6 +13,8 @@
 function es18() {
   const peso = 70;
   const altezza = 1.75;
+  const imc = peso / (altezza * altezza)
+  return {peso: peso, altezza: altezza, imc:imc.toFixed(1)}
   // TODO: scrivi qui la tua soluzione
 }
 

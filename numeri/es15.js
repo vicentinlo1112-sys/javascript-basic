@@ -12,7 +12,7 @@
 function es15() {
   const netto = 100;
   // TODO: scrivi qui la tua soluzione
+  return { netto, iva: netto * 0.22, lordo: netto * 1.22 };
 }
-
 // --- NON MODIFICARE SOTTO ---
 export { es15 };
