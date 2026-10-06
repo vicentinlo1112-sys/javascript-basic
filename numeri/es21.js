@@ -12,6 +12,12 @@
 
 function es21(secondi) {
   // TODO: scrivi qui la tua soluzione
+var ore = math.floor (secondi / 3600)
+var minuti = math.floor (secondi - 3600 * ora / 60)
+var secondi = math.floor (secondi - 3600 * ora - minuti * 60)
+
+
+return {ore , minuti , secondi}
 }
 
 // --- NON MODIFICARE SOTTO ---

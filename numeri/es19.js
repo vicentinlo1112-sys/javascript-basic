@@ -9,6 +9,17 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es19(n) {
+/*if (n%2 == 0)
+{
+  return true;
+}
+else
+{
+  return false;
+}*/
+
+return n % 2 == 0 ? true : false
+
   // TODO: scrivi qui la tua soluzione
 }
 
