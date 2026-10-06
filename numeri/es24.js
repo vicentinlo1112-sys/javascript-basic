@@ -14,7 +14,20 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es24(n) {
-  // TODO: scrivi qui la tua soluzione
+  const positivo = n > 0;
+  const pari = n % 2 == 0;
+  const assoluto = Math.abs(n);
+  var radice = 0
+  if (n > 0) {
+    radice = Math.sqrt(n)
+  }
+  if (n < 0 ){
+    radice = NaN;
+  }
+  
+  //const radice = n >= 0 ? Math.sqrt(n) : Number.NaN
+
+  return { positivo, pari, assoluto, radice };
 }
 
 // --- NON MODIFICARE SOTTO ---
